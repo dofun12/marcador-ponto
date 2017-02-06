@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlexMarcarPonto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user">Úsuario</string>
+    <string name="password">Senha</string>
+    <string name="mark">Marcar Ponto</string>
+    <string name="error_conection">Erro de conexão</string>
+
+</resources>

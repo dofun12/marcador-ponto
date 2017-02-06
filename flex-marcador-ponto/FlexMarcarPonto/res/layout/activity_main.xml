@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/usuariotv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/user" />
+    
+    <EditText
+        android:id="@+id/usuarioinpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/usuariotv"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:inputType="text" 
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+     <TextView
+        android:id="@+id/senhatv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/usuarioinpt"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/password" />
+    
+    
+    <EditText
+        android:id="@+id/senhainpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/senhatv"
+        android:layout_marginLeft="5dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/submmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/senhainpt"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/mark" />
+
+    <TextView
+        android:id="@+id/responsetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/submmit"
+        android:text="" />
+   
+</RelativeLayout>
